@@ -17,10 +17,10 @@ const items = [
   { title: "Manage Category", icon: Menu, url: "/category" },
   { title: "Manage Astrologer", icon: Users, url: "/astrologer" },
   { title: "Manage Users", icon: Users, url: "/users" },
-  { title: "Manage Slider", icon: Calendar, url: "#" },
-  { title: "Manage Wallet", icon: Wallet, url: "#" },
-  { title: "View Call History", icon: History, url: "#" },
-  { title: "View Chat History", icon: MessageSquare, url: "#" },
+  { title: "Manage Slider", icon: Calendar, url: "/slider" },
+  { title: "Manage Wallet", icon: Wallet, url: "/wallet" },
+  { title: "View Call History", icon: History, url: "/call-history" },
+  { title: "View Chat History", icon: MessageSquare, url: "/chat-history" },
 ];
 
 export function DashboardSidebar() {
