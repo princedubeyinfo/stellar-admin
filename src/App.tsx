@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Category from "./pages/Category";
 import Astrologer from "./pages/Astrologer";
+import Users from "./pages/Users";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/category" element={<Category />} />
           <Route path="/astrologer" element={<Astrologer />} />
+          <Route path="/users" element={<Users />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

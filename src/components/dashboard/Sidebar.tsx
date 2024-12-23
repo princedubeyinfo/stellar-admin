@@ -16,7 +16,7 @@ const items = [
   { title: "Dashboard", icon: Home, url: "/" },
   { title: "Manage Category", icon: Menu, url: "/category" },
   { title: "Manage Astrologer", icon: Users, url: "/astrologer" },
-  { title: "Manage Users", icon: Users, url: "#" },
+  { title: "Manage Users", icon: Users, url: "/users" },
   { title: "Manage Slider", icon: Calendar, url: "#" },
   { title: "Manage Wallet", icon: Wallet, url: "#" },
   { title: "View Call History", icon: History, url: "#" },
